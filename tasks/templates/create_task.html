@@ -1,3 +1,4 @@
+{%extends 'index.html'%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    {% block content %}
     <form method="POST"> 
         {% csrf_token %}
         {{form.media}}
@@ -17,5 +19,6 @@
         <input type="submit" value= "enviar">
 
     </form>
+    {% endblock %}
 </body>
 </html>

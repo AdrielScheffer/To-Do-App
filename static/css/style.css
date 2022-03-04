@@ -1,11 +1,36 @@
 
-.body-tasks {
-    background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
+.background {
+    background: url(../images/snow.jpg) repeat;
+    border: 2px solid black;
+    border-radius: 2rem;
+    min-height: 95vh;
+}
+
+
+
+.transparent-box div, a, h1 {
+    font-family: fantasy;
+    font-weight: bold;
+    color: #000000;
+   
+}
+
+.transparent-box{
     display: flex;
     flex-direction: column;
     justify-content:center ;
     align-items:center ;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 2rem;
+    opacity: 0.6;
+    min-height: 89vh;
     
+
+}
+
+html{
+    background-color: #000000;
 }
 
